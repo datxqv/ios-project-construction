@@ -1,7 +1,7 @@
 # Các quy tắc khi tạo project
 
 1. Tên project(Product Name)
-Cũng như tên biến sử dụng quy tắc con lạc đà, chỉ khác ở chỗ, chữ cái đầu viết hoa. Ví dụ "LaleTore".
+Cũng như tên biến sử dụng quy tắc con lạc đà, chỉ khác ở chỗ, chữ cái đầu viết hoa. Ví dụ "ConventionCodeDemo".
 
 2. Organization Name:
 Sử dụng "Paditech".
@@ -10,10 +10,10 @@ Sử dụng "Paditech".
 Sử dụng "com.paditech".
 
 4. Class Prefix:
-Tiền tố mặc định được thêm vào tên các file khi được thêm mới vào project. Tùy dự án, đặt tên file này khác nhau. Ví dụ tên dự án là "JapanneseQuick" Class Prefix có thể là "J" hoặc "JQ".
+Tiền tố mặc định được thêm vào tên các file khi được thêm mới vào project. Tùy dự án, đặt tên file này khác nhau. Ví dụ tên dự án là "ConventionCodeDemo" Class Prefix có thể là "C" hoặc "CC".
 
 # Cấu trúc thư mục project
-Các thư mục con được tạo để trong thư mục project, ví dụ project có tên là "LaleTore" khi được tạo sẽ kèm theo thư mục con là "LaleTore", các thư sau sẽ được tạo trong thư mục này.
+Các thư mục con được tạo để trong thư mục project, ví dụ project có tên là "ConventionCodeDemo" khi được tạo sẽ kèm theo thư mục con là "ConventionCodeDemo", các thư sau sẽ được tạo trong thư mục này.
 
 1. Libraries:
 Thư mục này sẽ chứa các thư viện nhúng được kéo từ ngoài vào project.
@@ -195,8 +195,10 @@ pod 'FBSDKShareKit', '4.15.1'
 1. Tạo Branch theo module, functions của project, tránh đặt theo tên Developer, dẫn đến việc người khác không hiểu được branch có nội dung là gì
 2. Khi commit thì sử dụng quy tắc:
   * Nội dung push dành cho ViewController, View,... các loại giao diện đi theo màn hình
+      
       [Tên màn hình][Tên functions] Nội dung miêu tả
   * Nội dung push dành cho các functions chung, các lớp thư viện, extension,... không đi theo màn hình
+      
       [Common][Tên functions] Nội dung miêu tả
 
 # The Official raywenderlich.com Swift Style Guide.
