@@ -26,7 +26,8 @@ Chứa các file video
     
   * Plists:
 Chứa các file plist
-//# Các file hình ảnh để trong Assets.xcassets
+
+//Các file hình ảnh để trong Assets.xcassets
 
 3. Classes
 Thư mục chính của project, chứa code của thành viên trong team. Gồm các thư mục sau:
@@ -53,7 +54,8 @@ Chứa các ViewController của project, mỗi một cụm chức năng nên đ
 Các file viewController
 Phân thành các đoạn sau sử dụng:`// MARK: -`
 
-**Variable and IBOutlet :**(Phần khai báo biến)
+* Variable and IBOutlet :
+(Phần khai báo biến)
 
 Tổ chức thành từng đoạn theo từng cụm view, hoặc //từng chức năng. Tạo comment cho từng cụm, mỗi cụm cách nhau bởi một dòng trống, trong mỗi cụm sắp xếp theo thứ tự abc. Ví dụ:
 
@@ -81,7 +83,9 @@ var areaSelected: AreaModel!
 var licenseList: [LicenseModel] = []
 var licenseSelected: LicenseModel!
 ```
-**Cycle function:**  (Các function mặc định, chu kì hoạt động của các view controller)
+
+* Cycle function: 
+(Các function mặc định, chu kì hoạt động của các view controller)
 
 Không thực hiện trực tiếp khởi tạo các thành phần trong viewDidLoad, mà tổ chức thành hai hàm initComponent() và initData(). VD:
 
@@ -108,7 +112,10 @@ override func didReceiveMemoryWarning() {
 }
 
 ```
-**Custom function, call API:** (Các hàm khởi tạo, gọi API)
+
+* Custom function, call API:
+
+(Các hàm khởi tạo, gọi API)
 
 …Tổ chức các hàm, sắp xếp theo thứ tự abc. VD:
 ```swift
@@ -126,7 +133,8 @@ func loadDataFromServer() {
 }
 ```
 
-**Event action:** (Các hàm sự kiện IBAction, TouchBegin..)
+* Event action:
+(Các hàm sự kiện IBAction, TouchBegin..)
 
 Sắp xếp theo thứ tự abc
 
