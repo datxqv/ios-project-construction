@@ -1,48 +1,53 @@
 # Các quy tắc khi tạo project
 
-* Tên project(Product Name)
+1. Tên project(Product Name)
 Cũng như tên biến sử dụng quy tắc con lạc đà, chỉ khác ở chỗ, chữ cái đầu viết hoa. Ví dụ "LaleTore".
 
-* Organization Name:
+2. Organization Name:
 Sử dụng "Paditech".
 
-* Organization identifier:
+3. Organization identifier:
 Sử dụng "com.paditech".
 
-* Class Prefix:
+4. Class Prefix:
 Tiền tố mặc định được thêm vào tên các file khi được thêm mới vào project. Tùy dự án, đặt tên file này khác nhau. Ví dụ tên dự án là "JapanneseQuick" Class Prefix có thể là "J" hoặc "JQ".
 
 # Cấu trúc thư mục project
 Các thư mục con được tạo để trong thư mục project, ví dụ project có tên là "LaleTore" khi được tạo sẽ kèm theo thư mục con là "LaleTore", các thư sau sẽ được tạo trong thư mục này.
 
-* Libraries:
+1. Libraries:
 Thư mục này sẽ chứa các thư viện nhúng được kéo từ ngoài vào project.
 
-* Resources:
+2. Resources: 
 Chứa các file media, plist.... Tổ chức thành các thư mục như sau:
-  
-  *[Videos:](#)
-  Chứa các file video
 
-  *[Plists:](#) 
-  Chứa các file plist
-  //# Các file hình ảnh để trong Assets.xcassets
+  * Videos:
+Chứa các file video
+    
+  * Plists:
+Chứa các file plist
+//# Các file hình ảnh để trong Assets.xcassets
 
-* Classes
-
+3. Classes
 Thư mục chính của project, chứa code của thành viên trong team. Gồm các thư mục sau:
 
-**Models:** Chứa các file model
+ * Models
+Chứa các file model
 
-**Objects:** Chứa các file objects
+ * Objects
+Chứa các file objects
+ 
+ * Services
+Chứa các file services tổ chức các API
 
-**Services:** Chứa các file services tổ chức các API
+ * Helpers 
+Chứa các file cấu hình như Constants...
 
-**Helpers:** Chứa các file cấu hình như Constants...
+ * Extensions
+Chứa các file extension, mở rộng chức năng của các đối tượng
 
-**Extensions:** Chứa các file extension, mở rộng chức năng của các đối tượng
-
-**ViewControllers:** Chứa các ViewController của project, mỗi một cụm chức năng nên được tổ chức thành từng thư mục riêng, trong mỗi thư mục này, các màn hình tương ứng với mỗi ViewController cũng phải được tổ chức thành các thư mục riêng rẽ như vậy.
+ * ViewControllers
+Chứa các ViewController của project, mỗi một cụm chức năng nên được tổ chức thành từng thư mục riêng, trong mỗi thư mục này, các màn hình tương ứng với mỗi ViewController cũng phải được tổ chức thành các thư mục riêng rẽ như vậy.
 
 # Một số quy tắc tổ chức code
 Các file viewController
