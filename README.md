@@ -19,7 +19,9 @@ Các thư mục con được tạo để trong thư mục project, ví dụ proj
 Thư mục này sẽ chứa các thư viện nhúng được kéo từ ngoài vào project.
 
 2. Resources: 
-Chứa các file media, plist.... Tổ chức thành các thư mục như sau:
+Chứa các file media, plist.... 
+
+Tổ chức thành các thư mục như sau:
 
   * Videos:
 Chứa các file video
