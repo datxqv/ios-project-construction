@@ -195,8 +195,10 @@ pod 'FBSDKShareKit', '4.15.1'
 1. Tạo Branch theo module, functions của project, tránh đặt theo tên Developer, dẫn đến việc người khác không hiểu được branch có nội dung là gì
 2. Khi commit thì sử dụng quy tắc:
   * Nội dung push dành cho ViewController, View,... các loại giao diện đi theo màn hình
+  
 [Tên màn hình][Tên functions] Nội dung miêu tả
   * Nội dung push dành cho các functions chung, các lớp thư viện, extension,... không đi theo màn hình
+  
 [Common][Tên functions] Nội dung miêu tả
 
 # The Official raywenderlich.com Swift Style Guide.
