@@ -191,6 +191,14 @@ pod 'FBSDKShareKit', '4.15.1'
 
 ```
 
+# Quy tắc sử dụng git
+1. Tạo Branch theo module, functions của project, tránh đặt theo tên người, dẫn đến việc người khác không hiểu được branch có nội dung là gì
+2. Khi commit thì sử dụng quy tắc:
+* Nội dung push dành cho ViewController, View,... các loại giao diện đi theo màn hình
+[Tên màn hình][Tên functions] Nội dung miêu tả
+* Nội dung push dành cho các functions chung, các lớp thư viện, extension,... không đi theo màn hình
+[Common][Tên functions] Nội dung miêu tả
+
 # The Official raywenderlich.com Swift Style Guide.
 
 This style guide is different from others you may see, because the focus is centered on readability for print and the web. We created this style guide to keep the code in our books, tutorials, and starter kits nice and consistent — even though we have many different authors working on the books.
