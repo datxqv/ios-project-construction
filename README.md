@@ -19,13 +19,13 @@ Các thư mục con được tạo để trong thư mục project, ví dụ proj
 Thư mục này sẽ chứa các thư viện nhúng được kéo từ ngoài vào project.
 
 * Resources:
-
 Chứa các file media, plist.... Tổ chức thành các thư mục như sau:
   
-  *[Videos:]
+  *[Videos:](#)
   Chứa các file video
 
-  *[Plists:] Chứa các file plist
+  *[Plists:](#) 
+  Chứa các file plist
   //# Các file hình ảnh để trong Assets.xcassets
 
 * Classes
