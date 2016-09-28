@@ -27,9 +27,9 @@ Chứa các file video
   * Plists:
 Chứa các file plist
 
-//Các file hình ảnh để trong Assets.xcassets
+**Các file hình ảnh để trong Assets.xcassets**
 
-3. Classes
+3. Classes:
 Thư mục chính của project, chứa code của thành viên trong team. Gồm các thư mục sau:
 
  * Models
