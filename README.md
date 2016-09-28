@@ -149,9 +149,12 @@ Sắp xếp theo thứ tự abc
 @IBAction func buttonSexClicked(sender: AnyObject) {
 
 }
+```
 
-**Delegate, DataSource:** Không để trong class controller, mà tổ chức theo đúng convention, cài đặt các delegate giống như các Extension của class. VD:
+* Delegate, DataSource:
+Không để trong class controller, mà tổ chức theo đúng convention, cài đặt các delegate giống như các Extension của class. VD:
 
+```swift
 // MARK: - UITableViewDelegate
 extension JSettingViewController: UITableViewDelegate {
 
