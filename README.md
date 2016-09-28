@@ -1,20 +1,28 @@
 # Các quy tắc khi tạo project
+
 * Tên project(Product Name)
 Cũng như tên biến sử dụng quy tắc con lạc đà, chỉ khác ở chỗ, chữ cái đầu viết hoa. Ví dụ "LaleTore".
+
 * Organization Name:
 Sử dụng "Paditech".
+
 * Organization identifier:
 Sử dụng "com.paditech".
+
 * Class Prefix:
 Tiền tố mặc định được thêm vào tên các file khi được thêm mới vào project. Tùy dự án, đặt tên file này khác nhau. Ví dụ tên dự án là "JapanneseQuick" Class Prefix có thể là "J" hoặc "JQ".
+
 # Cấu trúc thư mục project
 Các thư mục con được tạo để trong thư mục project, ví dụ project có tên là "LaleTore" khi được tạo sẽ kèm theo thư mục con là "LaleTore", các thư sau sẽ được tạo trong thư mục này.
-* Libraries
 
+* Libraries
 Thư mục này sẽ chứa các thư viện nhúng được kéo từ ngoài vào project.
+
 * Resources
 Chứa các file media, plist.... Tổ chức thành các thư mục như sau:
+
 **Videos:** Chứa các file video
+
 **Plists:** Chứa các file plist
 //# Các file hình ảnh để trong Assets.xcassets
 * Classes
