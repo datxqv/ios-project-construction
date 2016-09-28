@@ -15,16 +15,19 @@ Tiền tố mặc định được thêm vào tên các file khi được thêm 
 # Cấu trúc thư mục project
 Các thư mục con được tạo để trong thư mục project, ví dụ project có tên là "LaleTore" khi được tạo sẽ kèm theo thư mục con là "LaleTore", các thư sau sẽ được tạo trong thư mục này.
 
-* Libraries
+* Libraries:
 Thư mục này sẽ chứa các thư viện nhúng được kéo từ ngoài vào project.
 
-* Resources
+* Resources:
+
 Chứa các file media, plist.... Tổ chức thành các thư mục như sau:
+  
+  *[Videos:]
+  Chứa các file video
 
-**Videos:** Chứa các file video
+  *[Plists:] Chứa các file plist
+  //# Các file hình ảnh để trong Assets.xcassets
 
-**Plists:** Chứa các file plist
-//# Các file hình ảnh để trong Assets.xcassets
 * Classes
 
 Thư mục chính của project, chứa code của thành viên trong team. Gồm các thư mục sau:
